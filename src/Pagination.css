@@ -1,0 +1,29 @@
+.pagination-class {
+    display: flex;
+    width: 100%;
+    
+    margin-left: 15%;
+    padding-bottom: 50px;
+    padding-left: 360px;
+    margin-top: -40px;
+    width: 49.1%;
+    border-radius: 14px;
+  }
+  
+  .pagination-class > li {
+    list-style: none;
+    padding: 2px;
+  }
+  
+  .pagination-class > li > a {
+    padding: 10px;
+    color: black !important;
+    text-decoration: none;
+  }
+  
+  .pagination-class > li > a:hover {
+    cursor:default;
+    background-color: rgba(226, 123, 123, 0.4);
+    transition: background-color 0.4s ease-in, border-bottom 0.2s ease-out;
+    border-bottom: 5px solid rgb(215, 126, 126);
+  }
